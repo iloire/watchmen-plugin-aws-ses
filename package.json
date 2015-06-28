@@ -1,0 +1,22 @@
+{
+  "name": "watchmen-plugin-aws-ses",
+  "version": "0.0.1",
+  "description": "AWS SES notifications for watchmen",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iloire/watchmen-plugin-aws-ses.git"
+  },
+  "author": "Ivan Loire",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1.36",
+    "debug": "^2.2.0",
+    "mocha": "^2.2.5",
+    "moment": "^2.10.3",
+    "validator": "^3.40.1"
+  }
+}
